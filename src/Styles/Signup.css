@@ -1,0 +1,112 @@
+/* *{
+    background-color: black;
+} */
+.Signup{
+    background-color: black;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.Signup_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignupForm{
+    position: relative;
+    left: 22px;
+    margin-bottom: 50px;
+}
+
+.emailInput{
+    padding: 5px 10px;
+    background-color: black;
+    color:  rgb(113, 113, 113);
+    border: 1px solid rgb(113, 113, 113);
+    margin-top: 6px;
+    border-radius: 5px;
+    width: 270px;
+    font-size: 15px;
+}
+.nextButton{
+    background-color: rgb(33, 204, 33);
+    text-align: center;
+    padding:8px 15px;
+    width: 97%;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+/* .leftUnderline{
+    
+} */
+
+.google{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 280px;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 8px 10px;
+    border-radius: 30px;
+    
+}
+.googleIcon{
+    font-size: 20px;
+}
+.facebook{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 280px;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.facebookIcon{
+    font-size: 20px;
+    color: blue;
+    background: none;
+    
+}
+
+
+.apple{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 280px;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.appleIcon{
+    font-size: 20px;
+}
+
+.under{
+    border-bottom: 1px solid gray;
+}
+
+.alreadyLogin p{
+    font-size: 15px;
+    color: gray;
+}
+
+.logInHere{
+    border-bottom: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
