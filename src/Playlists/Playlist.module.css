@@ -1,0 +1,9 @@
+.playlist{
+    background-color: black;
+    height: 100vh;
+}
+
+.playlistContainer{
+    background-color: rgb(39, 38, 38);
+    width: 90%;
+}

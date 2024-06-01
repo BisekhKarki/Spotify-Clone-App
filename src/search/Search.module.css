@@ -1,0 +1,9 @@
+.search{
+    background-color: black;
+    height: 100vh;
+}
+
+.searchContainer{
+    background-color: rgb(39, 38, 38);
+    width: 90%;
+}

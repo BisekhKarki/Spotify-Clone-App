@@ -1,0 +1,9 @@
+.favourite{
+    background-color: black;
+    height: 100vh;
+}
+
+.favouriteContainer{
+    background-color: rgb(39, 38, 38);
+    width: 90%;
+}

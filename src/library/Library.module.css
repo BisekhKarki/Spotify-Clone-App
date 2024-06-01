@@ -1,0 +1,9 @@
+.library{
+    background-color: black;
+    height: 100vh;
+}
+
+.libraryContainer{
+    background-color: rgb(39, 38, 38);
+    width: 90%;
+}

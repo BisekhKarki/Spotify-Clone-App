@@ -1,0 +1,47 @@
+.logoAndProfile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sideNavbar{
+    background-color: black;
+    width: 15%;
+    border-right:1px solid white ;
+}
+
+.navButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    position: relative;
+    left: 20%;
+    top: 20px;
+
+}
+
+
+.navList{
+    list-style: none;
+}
+
+.navList:hover{
+    cursor: pointer;
+    color: red;
+    transition: all 1s;
+}
+
+li.active{
+    color: red;
+    list-style: none;
+    transition: all 1s;
+}
+
+.navigation_links{
+    display: flex;
+}
+.navbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
