@@ -40,3 +40,24 @@ export const twoNav = [
         }, 
     
 ]
+
+
+export const menuList = [
+    {
+        itemName:"Account"
+    },
+    {
+        itemName:"Profile"
+    },
+    {
+        itemName:"Support"
+    },
+    {
+        itemName:"Download"
+    },
+    {
+        itemName:"Log out"
+    },
+
+
+]

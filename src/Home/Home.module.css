@@ -9,6 +9,12 @@
 }
 .profile{
     display: flex;
+    flex-direction: column;
+
+}
+
+.userProfile{
+    display: flex;
     flex-direction: row;
     gap: 5px;
     align-items: center;
@@ -21,4 +27,24 @@
     cursor: pointer;
     font-size: 17px;
     text-align: center;
+}
+.menuItems{
+    position: relative;
+    right: 100px;
+    color: white;
+    background-color: rgb(101, 102, 103);
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    left: 89.5%;
+    top: 47px;
+    padding: 5px 10px;
+
+}
+.menuItems li{
+    list-style: none;
+    color: white;
+}
+.listItems{
+    color: white;
 }
